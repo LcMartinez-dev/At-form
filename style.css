@@ -1,18 +1,56 @@
 *{
     font-family: arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 255);
+}
 .container{
     width: 300px;
     height: 550px;
-    display: grid;
-    background-color: aqua;
-    grid-template-columns: repeat(1,100%);
-    grid-template-rows:repeat(1,550px) ;
-    box-shadow: 8px 8px 17px black;
-    padding-left: 20px;
+    display: flex;
+    box-shadow: 8px 8px 18px black;
+    flex-flow:column wrap;
+    justify-content: baseline;
+    padding-left: 30px;
+}
+.X{
+    width: 45px;
+    height: 45px;
+    border: none;
+    font-size: 25px;
+    float: right;
+    background-color: white;
+}
+.box{
+    width: 240px;
+    height: 30px;
+    border: none;
+    background-color: darkgrey;
+    margin-top: -32px;
+}
+.dados{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+.registro{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 5px;
+    margin-left:130px;
+    margin-top: 25px;
+    
 }
