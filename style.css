@@ -22,6 +22,7 @@ h1{
     flex-flow:column wrap;
     justify-content: baseline;
     padding-left: 30px;
+    margin-top: 50px;
 }
 .X{
     width: 45px;
@@ -53,4 +54,21 @@ h1{
     margin-left:130px;
     margin-top: 25px;
     
+}
+.Entrar{
+    width: 240px;
+    height: 30px;
+    border: none;
+    background-color: rgb(8, 8, 83);
+    margin-top: 25px;
+    color: white;
+}
+.cblu{
+    color: rgb(8, 8, 83);
+    font-weight: bold;
+}
+.fim p{
+ text-align: center;
+ margin-left: -25px;
+ margin-top: 20px;
 }
